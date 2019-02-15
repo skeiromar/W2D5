@@ -1,0 +1,27 @@
+div {     /* "div" is the name of a generic, not-yet-categorized container -- it must contain some elements */
+  height: 200px;
+  width: 200px; /* ; the semicolon signals the end of the line in CSS. (ruby does implicit end of line */
+  padding: 50px; /* for both boxes, which means you can write it into the general div */
+  border: 5px solid black /* border takes 1) size 2) type 3) color. */
+}
+
+#first-div {  /* id = cam be given any name, and they are unique to each element */
+  background-color: #39cccc;
+  width: 400px;
+  overflow: auto;    /* keeps the size of the box constant but as the amount of text increases, you have the option to scroll*/
+}
+
+#second-div {
+  background-color: #ff4136;
+  box-sizing: border-box; /*if we don't want the padding and border to be added on top of the width,
+                            but rather be included in the total width calculation */
+   
+}
+
+p { /* we don't add text in css because css is for presentation; add it in the html */
+  background-color: #7fdbff; /* text in p will have this default background color */
+
+}
+
+/* */
+/* */
